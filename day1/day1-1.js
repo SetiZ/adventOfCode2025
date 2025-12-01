@@ -8,7 +8,7 @@ let dial = dialStart;
 // console.log(array);
 // const i = 0;
 let counter = 0;
-console.log(dial);
+// console.log(dial);
 for (let i = 0; i < array.length; i++) {
   // console.log(ex[i]);
   const letter = array[i].charAt(0);
@@ -23,7 +23,7 @@ for (let i = 0; i < array.length; i++) {
       }
     }
     dial = score;
-    console.log(i, dial);
+    // console.log(i, dial);
   }
   if (letter === "R") {
     score = dial + rotation;
@@ -33,12 +33,11 @@ for (let i = 0; i < array.length; i++) {
       }
     }
     dial = score;
-    console.log(i, dial);
+    // console.log(i, dial);
   }
 
   if (dial === 0) {
     counter++;
   }
 }
-console.log("=====");
 console.log(counter);
