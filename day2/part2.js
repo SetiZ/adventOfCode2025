@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const ex = fs.readFileSync("example").toString().replace(/\r|\n/g, "");
-const array = fs.readFileSync("input1").toString().replace(/\r|\n/g, "");
+const array = fs.readFileSync("input").toString().replace(/\r|\n/g, "");
 
 function isRepeatedNumberPattern(num) {
   const str = String(num); // Ensure num is treated as a string

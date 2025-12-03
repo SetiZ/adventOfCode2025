@@ -1,7 +1,7 @@
 import fs from "fs";
 
 const ex = fs.readFileSync("example").toString().split("\n");
-const array = fs.readFileSync("input1").toString().split("\n");
+const array = fs.readFileSync("input").toString().split("\n");
 
 const dialStart = 50;
 let dial = dialStart;
