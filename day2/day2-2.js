@@ -26,7 +26,7 @@ for (let i = 0; i < test.length; i++) {
   console.log("from", split[0], "to", split[1]);
   for (let j = Number(split[0]); j <= Number(split[1]); j++) {
     // console.log(j);
-    if (matchesDoubleDigitRepeat(j)) {
+    if (isRepeatedNumberPattern(j)) {
       invalids.push(j);
       console.log("match:", j);
     }
